@@ -13,7 +13,7 @@ Check out a working example on [JSFiddle](https://jsfiddle.net/solodev/3stm0mnq/
 
 The scroll down anchor contains the following basic HTML markup.
 
-```
+```html
 <section class="company-heading intro-type" id="parallax-one">
    <div class="container">
       <div class="row product-title-info">
@@ -46,7 +46,7 @@ The scroll down anchor contains the following basic HTML markup.
 
 The following JavaScript is required to initialize the anchor.
 
-```
+```js
 $(document).ready(function(){
   $("a").on('click', function(event) {
     if (this.hash !== "") {
@@ -70,7 +70,7 @@ All necessary CSS is included in scroll-down.css
 
 This tutorial includes the following third party resources.
 
-```
+```html
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="scroll-down.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
